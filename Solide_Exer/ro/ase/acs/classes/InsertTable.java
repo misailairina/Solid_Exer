@@ -19,7 +19,7 @@ public class InsertTable implements InserareInterfata {
         PreparedStatement preparedStatement =
                 connection.prepareStatement(sqlInsertWithParams);
         preparedStatement.setInt(1, 2);
-        preparedStatement.setString(2, "Ionescu Vasile");
+        preparedStatement.setString(2, "Popescu Liviu");
         preparedStatement.setString(3, "Constanta");
         preparedStatement.setDouble(4, 2800);
         preparedStatement.executeUpdate();
